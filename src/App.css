@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(48, 13, 204);
+  background-color: #116FBB;
   display: flex;
   align-items: center;
   column-gap: 32px;  /* Espaço entre os elementos no header */
@@ -32,11 +32,12 @@ header {
 .navigation__link {
   color: white;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: bold;  /* Altere para 'bold' ou '700' para deixar o texto em negrito */
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
 }
+
 
 .navigation__link::after {
   content: '';

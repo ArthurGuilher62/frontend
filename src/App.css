@@ -2,12 +2,12 @@ header {
   background-color: #116FBB;
   display: flex;
   align-items: center;
-  column-gap: 32px;  /* Espaço entre os elementos no header */
+  column-gap: 32px;  
   width: 100%;
   padding-top: 1px;
   padding-bottom: 2px;
   flex-direction: row;
-  justify-content: center;  /* Centraliza o conteúdo */
+  justify-content: center; 
 }
 
 #title {
@@ -63,7 +63,7 @@ header {
   margin-bottom: 0;
 }
 
-.unb-logo {
+.unb {
   max-width: 90px;
   margin-bottom: 0;
   display: block;

@@ -25,6 +25,8 @@ function SobreNos() {
                 apaixonados por tecnologia e em busca de desafios que contribuam para o aprimoramento do ambiente corporativo e acadêmico.
             </p>
 
+            <h1>Sobre a FCTE</h1>
+
         </div>
 
         <Footer />

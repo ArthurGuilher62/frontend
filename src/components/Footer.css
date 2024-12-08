@@ -1,31 +1,75 @@
 .App-footer {
-    background-color: #112632;
-    color: white; 
-    text-align: center;  
-    padding: 20px 0;  
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #112632;
+  color: white;
+  text-align: center;
+  padding: 1.25rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;  /* Em telas maiores, os itens ficam em linha */
+  column-gap: 5rem;  /* Espaçamento horizontal entre os itens */
+  align-items: center;
+  padding-top: 2rem;
+}
+
+@media (max-width: 860px) {
+  .App-footer {
+    flex-direction: column;  /* Em telas menores, os itens ficam em coluna */
+    justify-content: center;  /* Centraliza o conteúdo na direção principal (vertical, já que a direção é 'column') */
+    align-items: center;  /* Centraliza os itens no eixo transversal (horizontal) */
+  }
+
+  .navigation__footer {
+    flex-direction: column;  /* Empilha os itens de navegação verticalmente */
+    row-gap: 1rem;  /* Espaçamento vertical entre os itens de navegação */
+    align-content: center;
+  }
+  
+  .logo-container {
+    margin-bottom: 0rem;  /* Espaçamento entre logo e navegação */
     display: flex;
-    justify-content:center;
-    flex-direction: row;
-    column-gap: 32px;  
-    align-items: center; 
-  }  
+    justify-content: center;  /* Centraliza o logo */
+    align-items: center;  /* Alinha o logo no centro do eixo transversal */
+  }
+
+  .Unb-logo {
+    max-width: 4rem;
+    align-self: center;  /* Ajusta o tamanho do logo da UNB em telas menores */
+  }
+}
+
+
+#title_footer {
+  font-family: 'Season_Prime', sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
 
 .navigation__footer {
-    display: flex;
-    align-items: center;
-    column-gap: 48px;
-    list-style: none;
-    color: white;
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  list-style: none;
+  color: white;
 }
 
 .navigation__footer a {
-  color: white;  
-  text-decoration: none; 
+  color: white;
+  text-decoration: none;
 }
 
-.Unb-logo{
-  max-width: 90px;
+.Unb-logo {
+  max-width: 5.625rem;
+}
+
+.linha {
+  width: 100%;
+  border-bottom: 3px solid white;
+  position: absolute;  /* Coloca a linha fora do fluxo normal de layout */
+  top: 1.25rem;  /* Mover a linha para baixo, equivalente a 20px (1.25rem) */
+  z-index: 10;  /* Garante que a linha fique acima dos outros elementos */
 }

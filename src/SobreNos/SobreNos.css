@@ -1,24 +1,23 @@
 .SobreNos {
-    display: flex;                /* Ativa o Flexbox */
-    flex-direction: column;       /* Organiza os itens na direção vertical */
-    justify-content: center;      /* Centraliza o conteúdo verticalmente */
-    align-items: center;          /* Centraliza o conteúdo horizontalmente */
-    padding: 0 20px;              /* Adiciona padding nas laterais (20px) */
-    min-height: 100vh;            /* Garante que a altura mínima ocupe toda a tela */
-    text-align: center;           /* Centraliza o texto */
-    background-color: #f9f9f9;    /* Cor de fundo (opcional) */
-  }
-  
-  .SobreNos h1 {
-    font-size: 2.5rem;            /* Tamanho do título */
-    margin-bottom: 20px;          /* Espaçamento abaixo do título */
-  }
-  
-  .SobreNos p {
-    font-size: 1.2rem;            /* Tamanho do texto */
-    line-height: 1.6;             /* Espaçamento entre as linhas do parágrafo */
-    margin-bottom: 15px;          /* Espaçamento entre os parágrafos */
-    max-width: 800px;             /* Limita a largura do parágrafo */
-    width: 100%;                  /* Ocupa 100% da largura disponível */
-  }
-  
+  display: flex;               
+  flex-direction: column;      
+  justify-content: center;    
+  align-items: center;         
+  padding: 0 1.25rem;          /* Substituído 20px por 1.25rem */
+  min-height: 100vh;            
+  text-align: left;           
+  background-color: #f9f9f9;    
+}
+
+.SobreNos h1 {
+  font-size: 2.5rem;            /* Permaneceu como está, já está em rem */
+  margin-bottom: 1.25rem;       /* Substituído 20px por 1.25rem */
+}
+
+.SobreNos p {
+  font-size: 1.2rem;            /* Permaneceu como está, já está em rem */
+  line-height: 1.6;             
+  margin-bottom: 0.9375rem;     /* Substituído 15px por 0.9375rem */
+  max-width: 50rem;             /* Substituído 800px por 50rem (assumindo base de 16px) */
+  width: 100%;                 
+}

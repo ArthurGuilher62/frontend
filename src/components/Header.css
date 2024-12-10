@@ -2,10 +2,10 @@ header {
   background-color: #116FBB;
   display: flex;
   align-items: center;
-  column-gap: 2rem;  /* Substituído 32px por 2rem */
+  column-gap: 2rem;  
   width: 100%;
-  padding-top: 0.0625rem;  /* Substituído 1px por 0.0625rem */
-  padding-bottom: 0.125rem;  /* Substituído 2px por 0.125rem */
+  padding-top: 0.0625rem;  
+  padding-bottom: 0.125rem; 
   flex-direction: row;
   justify-content: center;
   display: flex;
@@ -13,37 +13,38 @@ header {
 
 @media (max-width: 860px) {
   header {
-    flex-direction: column;  /* Empilha os itens do cabeçalho em uma coluna */
-    align-items: center;  /* Centraliza os itens verticalmente */
-    padding: 1rem;  /* Ajuste no padding para telas menores */
+    flex-direction: column; 
+    align-items: center;  
+    padding: 1rem 0; 
   }
 
   .navigation {
     display: flex;
-    flex-direction: column;  /* Empilha os itens de navegação verticalmente */
-    row-gap: 1rem;  /* Espaçamento vertical entre os itens de navegação */
-    align-items: center;  /* Centraliza os itens de navegação horizontalmente */
-    width: 100%;  /* Garante que a navegação ocupe toda a largura disponível */
+    flex-direction: column;  
+    row-gap: 1rem; 
+    align-items: center; 
+    width: 100%;  
+    padding: 0;
   }
 
   .navigation__link {
-    font-size: 1rem;  /* Aumenta o tamanho da fonte dos links em telas menores */
-    letter-spacing: normal;  /* Remove o espaçamento das letras em telas pequenas */
+    font-size: 1rem;  
+    letter-spacing: normal;  
   }
 
   .App-logo, .unb {
-    max-width: 4.375rem;  /* Ajuste no tamanho do logo para telas menores */
+    max-width: 4.375rem;  
   }
 
   #title {
-    font-size: 1.5rem;  /* Ajuste no tamanho do título para telas menores */
-    margin-bottom: 1rem;  /* Espaçamento entre o título e a navegação */
+    font-size: 1.5rem;  
+    margin-bottom: 1rem;  
   }
 }
 
 #title {
   font-family: 'Season_Prime', sans-serif;
-  font-size: 2rem;  /* Substituído 46px por 2.875rem */
+  font-size: 2rem;  
   color: white;
   margin: 0;
 }
@@ -51,7 +52,7 @@ header {
 .navigation {
   display: flex;
   align-items: center;
-  column-gap: 3rem;  /* Substituído 48px por 3rem */
+  column-gap: 3rem;  
   list-style: none;
   color: white;
 }
@@ -62,9 +63,9 @@ header {
 
 .navigation__link {
   color: white;
-  font-size: 0.875rem;  /* Substituído 14px por 0.875rem */
+  font-size: 0.875rem;  
   font-weight: bold;  
-  letter-spacing: 0.125rem;  /* Substituído 2px por 0.125rem */
+  letter-spacing: 0.125rem; 
   text-transform: uppercase;
   position: relative;
 }
@@ -73,9 +74,9 @@ header {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -0.125rem;  /* Substituído 2px por 0.125rem */
+  bottom: -0.125rem;  
   width: 70%;
-  height: 0.0625rem;  /* Substituído 1px por 0.0625rem */
+  height: 0.0625rem; 
   background: white;
   transform: scaleX(0);
   transform-origin: right;
@@ -89,12 +90,12 @@ header {
 }
 
 .App-logo {
-  max-width: 5.625rem;  /* Substituído 90px por 5.625rem */
+  max-width: 5.625rem;  
   margin-bottom: 0;
 }
 
 .unb {
-  max-width: 5.625rem;  /* Substituído 90px por 5.625rem */
+  max-width: 5.625rem;  
   margin-bottom: 0;
   display: block;
   margin-left: auto;

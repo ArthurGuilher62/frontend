@@ -8,35 +8,35 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: row;  /* Em telas maiores, os itens ficam em linha */
-  column-gap: 5rem;  /* Espaçamento horizontal entre os itens */
+  flex-direction: row; 
+  column-gap: 5rem;  
   align-items: center;
   padding-top: 2rem;
 }
 
 @media (max-width: 860px) {
   .App-footer {
-    flex-direction: column;  /* Em telas menores, os itens ficam em coluna */
-    justify-content: center;  /* Centraliza o conteúdo na direção principal (vertical, já que a direção é 'column') */
-    align-items: center;  /* Centraliza os itens no eixo transversal (horizontal) */
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center; 
   }
 
   .navigation__footer {
-    flex-direction: column;  /* Empilha os itens de navegação verticalmente */
-    row-gap: 1rem;  /* Espaçamento vertical entre os itens de navegação */
-    align-content: center;
+    flex-direction: column;  
+    row-gap: 1rem; 
+    padding: 0;
   }
-  
+
   .logo-container {
-    margin-bottom: 0rem;  /* Espaçamento entre logo e navegação */
+    margin-bottom: 0rem;  
     display: flex;
-    justify-content: center;  /* Centraliza o logo */
-    align-items: center;  /* Alinha o logo no centro do eixo transversal */
+    justify-content: center; 
+    align-items: center; 
   }
 
   .Unb-logo {
     max-width: 4rem;
-    align-self: center;  /* Ajusta o tamanho do logo da UNB em telas menores */
+    align-self: center;  
   }
 }
 

@@ -1,0 +1,57 @@
+/* Estilo do contêiner da pesquisa */
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem 0; /* Margem acima e abaixo do contêiner */
+  }
+  
+  /* Estilo do campo de entrada */
+  #barraPesquisa {
+    width: 60vw;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 0; /* Bordas arredondadas */
+    outline: none; /* Remove a borda de foco */
+    box-shadow: inset 0 -2px 0 0 #363636;
+    margin-right: 20px; 
+  }
+
+  
+  /* Estilo do botão de pesquisa */
+  #botaoPesquisa {
+    background-color: #116FBB;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 0.75vw 4vw; /* Aumentei o padding interno usando rem */
+    font-size: 1rem; /* Tamanho da fonte igual ao da barra de pesquisa */
+    cursor: pointer;
+    height: 40px;
+    transition: 0.5s;
+  }
+  
+  #botaoPesquisa:hover {
+    background-color: #112632; /* Cor do fundo no hover */
+    transition: 0.5s;
+  }
+  
+  .lupa {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .filtro {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin-left: 1rem;
+  }
+  
+  @media (max-width: 580px){
+    .lupa {
+      display: none; /* Esconde a lupa em telas pequenas */
+    }
+  } 

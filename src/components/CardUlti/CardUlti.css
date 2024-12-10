@@ -1,0 +1,62 @@
+
+.content-block {
+    background-color: #112632;
+    border-radius: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo do título */
+.title_box {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.data_valor {
+    display: flex;          /* Usa o modelo flexbox */
+    justify-content: space-between;  /* Espaça os elementos de forma equidistante */
+    align-items: center;    /* Alinha os elementos verticalmente ao centro */
+}
+
+/* Estilo do valor */
+.value_box {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Estilo do conteúdo */
+.content_box {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Estilo do botão */
+.btn_box {
+    background-color: #EFEFEF;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.btn_box:hover {
+    background-color: #0056b3;
+}
+
+.linha_box {
+    width: 100%; /* A linha ocupa 100% da largura */
+    height: 1px; /* Definindo a altura da linha */
+    background-color: #ddd; /* Cor da linha */
+    margin: 0 0 20px 0; /* Espaço acima e abaixo da linha */
+}

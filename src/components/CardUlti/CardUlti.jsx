@@ -8,11 +8,11 @@ function SobreNos() {
         <h2 class="title_box">Título</h2>
         <div className='data_valor'>
             <p class="value_box">data: dd/mm/aaaa</p>
-            <p class="value_box">valor: R$ </p>
+            <p class="value_box">valor: R$1.500,00</p>
         </div>
         <div className="linha_box"></div>
         <p class="content_box">
-            O texto que você compartilhou, aparentemente escrito por Peter Handke, reflete sobre a sociedade contemporânea...
+            Informações sobre os gastos -- Informações sobre os gastos -- Informações sobre os gastos -- Informações sobre os gastos -- Informações sobre os gastos
         </p>
         <button class="btn_box">Ver Mais</button>
     </div>
